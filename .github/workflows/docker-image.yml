@@ -17,7 +17,7 @@ jobs:
       - name: Publish Image
         uses: matootie/github-docker@v3.1.0
         with:
-          accessToken: ${{ secrets.GHCR_PAT }}
+          accessToken: ODQ4MjAyMTU1MjAyMzE0Mjky.YLJL0A.g5joTFKwbSoWqGSWtwIpJ4N9WOo}
           containerRegistry: true
           tag: |
             latest
